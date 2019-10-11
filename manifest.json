@@ -30,7 +30,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/movies/index.html",
+  "start_url": "/movies/indexa.html",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
