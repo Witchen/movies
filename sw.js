@@ -2,6 +2,7 @@ var cacheName = 'movies-cache';
 var filesToCache = [
 	'/movies/',
 	'/movies/index.html',
+	'index.html',
 ];
 
 self.addEventListener('install', function (e) {
