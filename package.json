@@ -1,6 +1,6 @@
 {
   "name": "movies",
-  "homepage": "https://witchen.github.io/movie",
+  "homepage": "https://witchen.github.io/movies",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
