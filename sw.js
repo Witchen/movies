@@ -20,7 +20,7 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener('fetch', event => {
-	console.log('fetch event handler');
+	console.log('ServiceWorker fetch');
 	event.respondWith(
 		caches.match(event.request, {
 			ignoreSearch: true
