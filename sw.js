@@ -19,6 +19,7 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener('fetch', event => {
+	console.log('fetch event handler');
 	event.respondWith(
 		caches.match(event.request, {
 			ignoreSearch: true
